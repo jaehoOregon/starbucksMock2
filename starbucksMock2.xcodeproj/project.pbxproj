@@ -29,6 +29,8 @@
 		03FC678129203E8D00BE45B9 /* segFirstViewMenuFood.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC677F29203E8D00BE45B9 /* segFirstViewMenuFood.xib */; };
 		03FC678829203FA500BE45B9 /* segFirsstViewMenuGoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC678629203FA500BE45B9 /* segFirsstViewMenuGoods.swift */; };
 		03FC678929203FA500BE45B9 /* segFirsstViewMenuGoods.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC678729203FA500BE45B9 /* segFirsstViewMenuGoods.xib */; };
+		03FC678B292040FF00BE45B9 /* reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC678A292040FF00BE45B9 /* reference.swift */; };
+		03FC678D2920414700BE45B9 /* issues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC678C2920414700BE45B9 /* issues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		03FC677F29203E8D00BE45B9 /* segFirstViewMenuFood.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segFirstViewMenuFood.xib; sourceTree = "<group>"; };
 		03FC678629203FA500BE45B9 /* segFirsstViewMenuGoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segFirsstViewMenuGoods.swift; sourceTree = "<group>"; };
 		03FC678729203FA500BE45B9 /* segFirsstViewMenuGoods.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segFirsstViewMenuGoods.xib; sourceTree = "<group>"; };
+		03FC678A292040FF00BE45B9 /* reference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reference.swift; sourceTree = "<group>"; };
+		03FC678C2920414700BE45B9 /* issues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = issues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 		03FC6744292033D800BE45B9 /* starbucksMock2 */ = {
 			isa = PBXGroup;
 			children = (
+				03FC678A292040FF00BE45B9 /* reference.swift */,
+				03FC678C2920414700BE45B9 /* issues.swift */,
 				03FC6745292033D800BE45B9 /* AppDelegate.swift */,
 				03FC6747292033D800BE45B9 /* SceneDelegate.swift */,
 				03FC6749292033D800BE45B9 /* ViewController.swift */,
@@ -216,9 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FC678D2920414700BE45B9 /* issues.swift in Sources */,
 				03FC678029203E8D00BE45B9 /* segFirstViewMenuFood.swift in Sources */,
 				03FC674A292033D800BE45B9 /* ViewController.swift in Sources */,
 				03FC6762292034B400BE45B9 /* otherVC.swift in Sources */,
+				03FC678B292040FF00BE45B9 /* reference.swift in Sources */,
 				03FC675E2920348800BE45B9 /* orderVC.swift in Sources */,
 				03FC6760292034A000BE45B9 /* shopVC.swift in Sources */,
 				03FC675C2920347400BE45B9 /* payVC.swift in Sources */,
