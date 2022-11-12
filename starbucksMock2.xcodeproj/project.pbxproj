@@ -13,6 +13,16 @@
 		03FC674D292033D800BE45B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FC674B292033D800BE45B9 /* Main.storyboard */; };
 		03FC674F292033D900BE45B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FC674E292033D900BE45B9 /* Assets.xcassets */; };
 		03FC6752292033D900BE45B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FC6750292033D900BE45B9 /* LaunchScreen.storyboard */; };
+		03FC675C2920347400BE45B9 /* payVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC675B2920347400BE45B9 /* payVC.swift */; };
+		03FC675E2920348800BE45B9 /* orderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC675D2920348800BE45B9 /* orderVC.swift */; };
+		03FC6760292034A000BE45B9 /* shopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC675F292034A000BE45B9 /* shopVC.swift */; };
+		03FC6762292034B400BE45B9 /* otherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC6761292034B400BE45B9 /* otherVC.swift */; };
+		03FC67672920384700BE45B9 /* segFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC67652920384700BE45B9 /* segFirstView.swift */; };
+		03FC67682920384700BE45B9 /* segFirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC67662920384700BE45B9 /* segFirstView.xib */; };
+		03FC676B2920385700BE45B9 /* segSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC67692920385700BE45B9 /* segSecondView.swift */; };
+		03FC676C2920385700BE45B9 /* segSecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC676A2920385700BE45B9 /* segSecondView.xib */; };
+		03FC676F2920387300BE45B9 /* segThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC676D2920387300BE45B9 /* segThirdView.swift */; };
+		03FC67702920387300BE45B9 /* segThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC676E2920387300BE45B9 /* segThirdView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		03FC674E292033D900BE45B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03FC6751292033D900BE45B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03FC6753292033D900BE45B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FC675B2920347400BE45B9 /* payVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payVC.swift; sourceTree = "<group>"; };
+		03FC675D2920348800BE45B9 /* orderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderVC.swift; sourceTree = "<group>"; };
+		03FC675F292034A000BE45B9 /* shopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopVC.swift; sourceTree = "<group>"; };
+		03FC6761292034B400BE45B9 /* otherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherVC.swift; sourceTree = "<group>"; };
+		03FC67652920384700BE45B9 /* segFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segFirstView.swift; sourceTree = "<group>"; };
+		03FC67662920384700BE45B9 /* segFirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segFirstView.xib; sourceTree = "<group>"; };
+		03FC67692920385700BE45B9 /* segSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segSecondView.swift; sourceTree = "<group>"; };
+		03FC676A2920385700BE45B9 /* segSecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segSecondView.xib; sourceTree = "<group>"; };
+		03FC676D2920387300BE45B9 /* segThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segThirdView.swift; sourceTree = "<group>"; };
+		03FC676E2920387300BE45B9 /* segThirdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segThirdView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +80,37 @@
 				03FC6747292033D800BE45B9 /* SceneDelegate.swift */,
 				03FC6749292033D800BE45B9 /* ViewController.swift */,
 				03FC674B292033D800BE45B9 /* Main.storyboard */,
+				03FC675B2920347400BE45B9 /* payVC.swift */,
+				03FC6763292037FB00BE45B9 /* payVCSubViews */,
+				03FC675D2920348800BE45B9 /* orderVC.swift */,
+				03FC675F292034A000BE45B9 /* shopVC.swift */,
+				03FC6761292034B400BE45B9 /* otherVC.swift */,
 				03FC674E292033D900BE45B9 /* Assets.xcassets */,
 				03FC6750292033D900BE45B9 /* LaunchScreen.storyboard */,
 				03FC6753292033D900BE45B9 /* Info.plist */,
 			);
 			path = starbucksMock2;
+			sourceTree = "<group>";
+		};
+		03FC6763292037FB00BE45B9 /* payVCSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				03FC67642920381900BE45B9 /* segmentViews */,
+			);
+			path = payVCSubViews;
+			sourceTree = "<group>";
+		};
+		03FC67642920381900BE45B9 /* segmentViews */ = {
+			isa = PBXGroup;
+			children = (
+				03FC67662920384700BE45B9 /* segFirstView.xib */,
+				03FC67652920384700BE45B9 /* segFirstView.swift */,
+				03FC676A2920385700BE45B9 /* segSecondView.xib */,
+				03FC67692920385700BE45B9 /* segSecondView.swift */,
+				03FC676E2920387300BE45B9 /* segThirdView.xib */,
+				03FC676D2920387300BE45B9 /* segThirdView.swift */,
+			);
+			path = segmentViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +174,9 @@
 				03FC6752292033D900BE45B9 /* LaunchScreen.storyboard in Resources */,
 				03FC674F292033D900BE45B9 /* Assets.xcassets in Resources */,
 				03FC674D292033D800BE45B9 /* Main.storyboard in Resources */,
+				03FC67682920384700BE45B9 /* segFirstView.xib in Resources */,
+				03FC67702920387300BE45B9 /* segThirdView.xib in Resources */,
+				03FC676C2920385700BE45B9 /* segSecondView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +188,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				03FC674A292033D800BE45B9 /* ViewController.swift in Sources */,
+				03FC6762292034B400BE45B9 /* otherVC.swift in Sources */,
+				03FC675E2920348800BE45B9 /* orderVC.swift in Sources */,
+				03FC6760292034A000BE45B9 /* shopVC.swift in Sources */,
+				03FC675C2920347400BE45B9 /* payVC.swift in Sources */,
 				03FC6746292033D800BE45B9 /* AppDelegate.swift in Sources */,
+				03FC676F2920387300BE45B9 /* segThirdView.swift in Sources */,
+				03FC676B2920385700BE45B9 /* segSecondView.swift in Sources */,
 				03FC6748292033D800BE45B9 /* SceneDelegate.swift in Sources */,
+				03FC67672920384700BE45B9 /* segFirstView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +362,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +390,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
