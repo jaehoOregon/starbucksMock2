@@ -23,6 +23,12 @@
 		03FC676C2920385700BE45B9 /* segSecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC676A2920385700BE45B9 /* segSecondView.xib */; };
 		03FC676F2920387300BE45B9 /* segThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC676D2920387300BE45B9 /* segThirdView.swift */; };
 		03FC67702920387300BE45B9 /* segThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC676E2920387300BE45B9 /* segThirdView.xib */; };
+		03FC677C29203E7900BE45B9 /* segFirstViewMenuDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC677A29203E7900BE45B9 /* segFirstViewMenuDrink.swift */; };
+		03FC677D29203E7900BE45B9 /* segFirstViewMenuDrink.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC677B29203E7900BE45B9 /* segFirstViewMenuDrink.xib */; };
+		03FC678029203E8D00BE45B9 /* segFirstViewMenuFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC677E29203E8D00BE45B9 /* segFirstViewMenuFood.swift */; };
+		03FC678129203E8D00BE45B9 /* segFirstViewMenuFood.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC677F29203E8D00BE45B9 /* segFirstViewMenuFood.xib */; };
+		03FC678829203FA500BE45B9 /* segFirsstViewMenuGoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC678629203FA500BE45B9 /* segFirsstViewMenuGoods.swift */; };
+		03FC678929203FA500BE45B9 /* segFirsstViewMenuGoods.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FC678729203FA500BE45B9 /* segFirsstViewMenuGoods.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		03FC676A2920385700BE45B9 /* segSecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segSecondView.xib; sourceTree = "<group>"; };
 		03FC676D2920387300BE45B9 /* segThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segThirdView.swift; sourceTree = "<group>"; };
 		03FC676E2920387300BE45B9 /* segThirdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segThirdView.xib; sourceTree = "<group>"; };
+		03FC677A29203E7900BE45B9 /* segFirstViewMenuDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segFirstViewMenuDrink.swift; sourceTree = "<group>"; };
+		03FC677B29203E7900BE45B9 /* segFirstViewMenuDrink.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segFirstViewMenuDrink.xib; sourceTree = "<group>"; };
+		03FC677E29203E8D00BE45B9 /* segFirstViewMenuFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segFirstViewMenuFood.swift; sourceTree = "<group>"; };
+		03FC677F29203E8D00BE45B9 /* segFirstViewMenuFood.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segFirstViewMenuFood.xib; sourceTree = "<group>"; };
+		03FC678629203FA500BE45B9 /* segFirsstViewMenuGoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segFirsstViewMenuGoods.swift; sourceTree = "<group>"; };
+		03FC678729203FA500BE45B9 /* segFirsstViewMenuGoods.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = segFirsstViewMenuGoods.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +93,8 @@
 				03FC6749292033D800BE45B9 /* ViewController.swift */,
 				03FC674B292033D800BE45B9 /* Main.storyboard */,
 				03FC675B2920347400BE45B9 /* payVC.swift */,
-				03FC6763292037FB00BE45B9 /* payVCSubViews */,
 				03FC675D2920348800BE45B9 /* orderVC.swift */,
+				03FC6763292037FB00BE45B9 /* orderVCSubViews */,
 				03FC675F292034A000BE45B9 /* shopVC.swift */,
 				03FC6761292034B400BE45B9 /* otherVC.swift */,
 				03FC674E292033D900BE45B9 /* Assets.xcassets */,
@@ -92,12 +104,12 @@
 			path = starbucksMock2;
 			sourceTree = "<group>";
 		};
-		03FC6763292037FB00BE45B9 /* payVCSubViews */ = {
+		03FC6763292037FB00BE45B9 /* orderVCSubViews */ = {
 			isa = PBXGroup;
 			children = (
 				03FC67642920381900BE45B9 /* segmentViews */,
 			);
-			path = payVCSubViews;
+			path = orderVCSubViews;
 			sourceTree = "<group>";
 		};
 		03FC67642920381900BE45B9 /* segmentViews */ = {
@@ -105,12 +117,26 @@
 			children = (
 				03FC67662920384700BE45B9 /* segFirstView.xib */,
 				03FC67652920384700BE45B9 /* segFirstView.swift */,
+				03FC677129203E0F00BE45B9 /* segFirstViewMenus */,
 				03FC676A2920385700BE45B9 /* segSecondView.xib */,
 				03FC67692920385700BE45B9 /* segSecondView.swift */,
 				03FC676E2920387300BE45B9 /* segThirdView.xib */,
 				03FC676D2920387300BE45B9 /* segThirdView.swift */,
 			);
 			path = segmentViews;
+			sourceTree = "<group>";
+		};
+		03FC677129203E0F00BE45B9 /* segFirstViewMenus */ = {
+			isa = PBXGroup;
+			children = (
+				03FC677B29203E7900BE45B9 /* segFirstViewMenuDrink.xib */,
+				03FC677A29203E7900BE45B9 /* segFirstViewMenuDrink.swift */,
+				03FC677F29203E8D00BE45B9 /* segFirstViewMenuFood.xib */,
+				03FC677E29203E8D00BE45B9 /* segFirstViewMenuFood.swift */,
+				03FC678729203FA500BE45B9 /* segFirsstViewMenuGoods.xib */,
+				03FC678629203FA500BE45B9 /* segFirsstViewMenuGoods.swift */,
+			);
+			path = segFirstViewMenus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FC678129203E8D00BE45B9 /* segFirstViewMenuFood.xib in Resources */,
+				03FC678929203FA500BE45B9 /* segFirsstViewMenuGoods.xib in Resources */,
+				03FC677D29203E7900BE45B9 /* segFirstViewMenuDrink.xib in Resources */,
 				03FC6752292033D900BE45B9 /* LaunchScreen.storyboard in Resources */,
 				03FC674F292033D900BE45B9 /* Assets.xcassets in Resources */,
 				03FC674D292033D800BE45B9 /* Main.storyboard in Resources */,
@@ -187,12 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FC678029203E8D00BE45B9 /* segFirstViewMenuFood.swift in Sources */,
 				03FC674A292033D800BE45B9 /* ViewController.swift in Sources */,
 				03FC6762292034B400BE45B9 /* otherVC.swift in Sources */,
 				03FC675E2920348800BE45B9 /* orderVC.swift in Sources */,
 				03FC6760292034A000BE45B9 /* shopVC.swift in Sources */,
 				03FC675C2920347400BE45B9 /* payVC.swift in Sources */,
 				03FC6746292033D800BE45B9 /* AppDelegate.swift in Sources */,
+				03FC677C29203E7900BE45B9 /* segFirstViewMenuDrink.swift in Sources */,
+				03FC678829203FA500BE45B9 /* segFirsstViewMenuGoods.swift in Sources */,
 				03FC676F2920387300BE45B9 /* segThirdView.swift in Sources */,
 				03FC676B2920385700BE45B9 /* segSecondView.swift in Sources */,
 				03FC6748292033D800BE45B9 /* SceneDelegate.swift in Sources */,

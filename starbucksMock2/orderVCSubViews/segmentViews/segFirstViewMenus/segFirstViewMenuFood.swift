@@ -1,5 +1,5 @@
 //
-//  segFirstView.swift
+//  segFirstViewMenuFood.swift
 //  starbucksMock2
 //
 //  Created by Jaeho Jung on 2022/11/13.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class segFirstView: UIViewController {
+class segFirstViewMenuFood: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
